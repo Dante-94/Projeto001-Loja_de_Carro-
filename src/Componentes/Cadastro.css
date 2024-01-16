@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.Principal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#b4b4b4, #fdfdfd);
+}
+
+
+.Cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #f7f5e5;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 8px #000000a9;
+  }
+.Cad{
+    background-color: #a1a0a0c7;
+    width: 220px;
+    padding: 10px;
+    margin: 1px;
+    border: 0;
+  }
+  .Cad:hover{
+    background-color: #cfccccc7;
+  }
+  .Cad::placeholder{
+    color: #2e2d2d;
+  
+  }
+  .top{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .Salvar{
+    border-radius: 5px;
+    border: 0;
+    background-color: #9b0c0c;
+    margin-top: 30px;
+    padding: 10px;
+    width: 240px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  .Salvar:hover{
+    transition: 0.2s ease;
+    background-color: #9b0c0cc5;
+    
+    
+  }

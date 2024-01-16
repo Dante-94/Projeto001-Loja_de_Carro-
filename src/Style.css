@@ -1,0 +1,24 @@
+.Principal{
+    display: inline-block;
+  }
+  .Links{
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    width: 150px;
+    background-color: #9b0c0c;
+    cursor: pointer;
+    color: #fdfdfd;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    
+
+  }
+  .Links:hover{
+    background-color: #b43939;
+
+  }
+  .Link{
+    display: inline;
+  }
